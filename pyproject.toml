@@ -1,5 +1,5 @@
 [project]
-name = "bud-learning-cli"
+name = "bud-learning"
 version = "0.1.0"
 description = ""
 authors = [
@@ -12,10 +12,10 @@ dependencies = [
 ]
 
 [project.scripts]
-bud_learning_cli = "bud_learning_cli.cli:arguably.run"
+bud_learning = "bud_learning.cli:arguably.run"
 
 [tool.poetry]
-packages = [{include = "bud_learning_cli", from = "src"}]
+packages = [{include = "bud_learning", from = "src"}]
 
 
 [build-system]

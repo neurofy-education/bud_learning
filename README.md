@@ -5,13 +5,13 @@ A CLI to help you learn better and faster with AI help.
 ## Installation
 
 ```bash
-git clone https://github.com/neurofy-education/bud_learning_cli
-cd bud_learning_cli
+git clone https://github.com/neurofy-education/bud_learning
+cd bud_learning
 pip install -e .
 ```
 
 ## Usage
 
 ```bash
-bud_learning_cli -h
+bud_learning -h
 ```
