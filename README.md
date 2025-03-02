@@ -16,5 +16,5 @@ cp .env.template .env
 ## Usage
 
 ```bash
-bud_learning -h
+bud-learning -h
 ```
