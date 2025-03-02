@@ -1,0 +1,19 @@
+[project]
+name = "bud-learning-cli"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Marco Aurélio Prado",email = "marco.pdsv@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "bud_learning_cli", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
