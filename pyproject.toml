@@ -6,9 +6,13 @@ authors = [
     {name = "Marco Aurélio Prado",email = "marco.pdsv@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.9,<4.0"
 dependencies = [
+    "arguably (>=1.3.0,<2.0.0)"
 ]
+
+[project.scripts]
+bud_learning_cli = "bud_learning_cli.cli:arguably.run"
 
 [tool.poetry]
 packages = [{include = "bud_learning_cli", from = "src"}]
